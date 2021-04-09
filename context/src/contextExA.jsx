@@ -1,6 +1,5 @@
 import React, {useState} from "react";
-import ThemeContext, {color} from 'Contexts/themeContext'
-import UserContext from 'Contexts/userContext';
+import ThemeContext, {color} from 'Contexts/themeContext';
 class ThemedButton extends React.Component {
   static contextType = ThemeContext;
   render() {
