@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import ErrorBoundry from './errorBoundry';
+import ErrorBoundary from './errorBoundary';
 import MyComponent from './myComponent';
 
 //error boundry prevent component unmonting in case of error
@@ -17,9 +17,9 @@ Errors thrown in the error boundary itself (rather than its children)
 const App = () => {
 
   return (
-      <ErrorBoundry>
+      <ErrorBoundary>
           <MyComponent/>
-      </ErrorBoundry>
+      </ErrorBoundary>
   )
 };
 
